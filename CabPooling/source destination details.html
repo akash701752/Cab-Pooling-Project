@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ride Details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="ridedetails.css">
+</head>
+<body>
+    <div class="fixed-top">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <h5 class="text-white h4">Collapsed content</h5>
+            <span class="text-muted">Toggleable via the navbar brand.</span>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+    </div>
+<div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" href="#">Cabpooling</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="../CabPooling/index.html">Home <span class="sr-only"></span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="source destination details.html">Book Now <span class="sr-only"></span></a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+ </div>
+  <form action="cabbooking.php" method="post" class="form">
+        <br>
+        <br>
+        <br>
+        <h1>Contact Details </h1>
+        <p class="p1">Required fields are followed by * </p>
+        <p>Name* :<input type="text" id="name" name="name"></p> 
+      
+        <h1>Ride Details :</h1>
+
+         <p>Source Location* :
+            <select name="source" id="source" required>
+                <option value="">Select your Source Location</option>
+                <option value="Clement Town">Clement Town</option>
+                <option value="ISBT">ISBT</option>
+                <option value="Ghantaghar">Ghantaghar</option>
+                <option value="Movie Lounge">Movie Lounge</option>
+                <option value="Pacific Mall">Pacific Mall</option>
+                <option value="Graphic Era Hill University">Graphic Era Hill University</option>
+            </select>
+         </p>
+         <p>Destination* :
+            <select name="destination" id="destination" required>
+                <option value="">Destination</option>
+                <option value="Clement Town">Clement Town</option>
+                <option value="ISBT">ISBT</option>
+                <option value="Ghantaghar">Ghantaghar</option>
+                <option value="Movie Lounge">Movie Lounge</option>
+                <option value="Pacific Mall">Pacific Mall</option>
+                <option value="Graphic Era Hill University">Graphic Era Hill University</option>
+            </select>
+         </p>
+           
+            <p><label for="appt">Select Time:</label></p>
+            <p><input type="time" id="time" name="time"></p>
+         
+         <p><input type="submit" value="submit"></p>
+
+    </form>
+
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">Akash &nbsp; Yadav</a>
+    </div>
+    
+  </footer>   
+   
+</body>
+</html>

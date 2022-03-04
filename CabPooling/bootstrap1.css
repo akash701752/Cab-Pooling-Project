@@ -1,0 +1,121 @@
+.h1sec{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: .70rem;
+    
+    color: white;
+    width: 100%;
+    background-color: black;
+   padding-top: 0rem;
+}
+.boxmiddle{
+    margin-top: 0rem;
+    background-color: tomato;
+
+}
+
+.middle_sec{
+    background-color: white; 
+    margin-top: 0rem; 
+   padding-top: 0rem;
+}
+img{
+    border-radius: 50%;
+}
+.discimage{
+    /*border-radius: 10%;*/
+    height: 100%;
+    width: 40rem;
+}
+.dis{
+    display: block;
+    margin-left: 51rem;
+    
+    width: 30rem;
+    height: 30rem;
+
+}
+.h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-style: oblique;
+   padding-top: 0rem;
+}
+.h1_why{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 6rem;
+    color: black;
+   padding-top: 0rem;
+   background-color: grey;
+}
+.list{
+    float: center;
+    text-indent: 35%;
+    list-style-type: none;
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(219, 28, 28);
+}
+.book{
+    float: center;
+    text-indent: 40%;
+    color: white;
+    list-style-type: none;
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkslateblue;
+}
+.carlogo{
+    margin-left: 40rem;
+}
+.about_us{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 6rem;
+    color: white;
+   padding-top: 0px;
+   background-color: black;
+}
+.para{
+    margin-left: 35rem;
+    margin-right: 35rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+.support{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 6rem;
+    color: white;
+   padding-top: 0rem;
+   background-color: orangered;
+}
+.supp{
+    margin-left: 50rem;
+    margin-right: 50rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+
+
+
+
+html{
+    font-size: 62.5%;
+}
+@media(max-width:998px) {
+    html {
+        font-size: 55% ;
+    }
+}
+@media(max-width:768px) {
+    html {
+        font-size: 45% ;
+    }
+}
+.color{
+    background-color: red;
+}
