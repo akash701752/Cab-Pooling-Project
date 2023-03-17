@@ -4,5 +4,9 @@ The objective of our cab pooling website is to provide a convenient and cost-eff
 # Description
 Our cab pooling website is designed to cater to the needs of daily commuters who are looking for a comfortable, affordable, and eco-friendly mode of transportation. The website allows users to create profiles, input their starting and destination points, and search for potential matches in their area. 
 
+Our cab pooling website aims to make daily commuting convenient, comfortable, and sustainable while reducing traffic congestion and promoting social interaction among passengers.
 # Website 
 ![CabPooling](CabPoolingWebsite.png)
+
+# Ride In Page
+![SignUP](CabPoolingWebsite.png)
