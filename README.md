@@ -10,3 +10,9 @@ Our cab pooling website aims to make daily commuting convenient, comfortable, an
 
 # Ride In Page
 ![SignUP](CabPoolingSignUp.png)
+
+# Languages Used
+HTML for front-end development
+CSS for beautification
+PHP for back-end development
+
