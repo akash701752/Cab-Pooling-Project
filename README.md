@@ -12,7 +12,11 @@ Our cab pooling website aims to make daily commuting convenient, comfortable, an
 ![SignUP](CabPoolingSignUp.png)
 
 # Languages Used
-HTML for front-end development
-CSS for beautification
-PHP for back-end development
+HTML for front-end development.
+CSS for beautification.
+PHP for back-end development.
+
+# Sources
+W3School : https://www.w3schools.com/
+Youtube : https://www.youtube.com/
 
