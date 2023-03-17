@@ -9,4 +9,4 @@ Our cab pooling website aims to make daily commuting convenient, comfortable, an
 ![CabPooling](CabPoolingWebsite.png)
 
 # Ride In Page
-![SignUP](CabPoolingWebsite.png)
+![SignUP](CabPoolingSignUp.png)
